@@ -1,0 +1,55 @@
+.email-details-container .email-address {
+  color: #99a7ab;
+  font-size: 14px;
+}
+.email-details-container .email-subject,
+.email-details-container .email-sender {
+  font-weight: bold;
+}
+
+.email-details-container .email-subject {
+  font-size: 21px;
+  margin: 0;
+}
+
+.email-details-container .contact-details {
+  margin-bottom: 7vh;
+}
+.email-details-container {
+  z-index: 5;
+  width: 67vw;
+  margin-left: 70px;
+}
+
+.details-return-btn {
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  background: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #5f6368;
+  cursor: pointer;
+  font-weight: 500;
+  height: 36px;
+  min-width: 80px;
+  outline: none;
+  padding: 0 16px;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+}
+
+.email-details{
+    z-index: 5;
+}
+
+.actions-details{
+  opacity: 1;
+  margin-left: 50vw;
+  gap: 15px;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 9vw;
+
+}

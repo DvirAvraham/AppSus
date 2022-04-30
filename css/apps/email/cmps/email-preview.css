@@ -1,0 +1,89 @@
+.email-preview {
+  background-color: #f5f7f7;
+  flex-grow: 1;
+}
+
+.preview-email-body {
+  flex-grow: 1;
+  margin-left: 5px;
+  color: #979ca0;
+}
+.sender-name {
+  display: flex;
+  margin-inline-start: 1vw;
+  width: 22vw;
+  align-items: center;
+}
+
+.email-subject {
+  display: inline-block;
+}
+
+.preview-star {
+  align-self: center;
+  margin-inline-start: 2px;
+}
+
+.preview-container {
+  align-items: center;
+}
+
+ .preview-star .dont-show{
+  opacity: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 9vw;
+  margin-inline-end: 4px;
+  opacity: 0;
+}
+
+.actions i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview-container i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-btn {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 0.6s;
+  opacity: 0.71;
+}
+.preview-btn:hover {
+  opacity: 0.87;
+  background-color: rgba(95, 99, 104, 0.257);
+}
+
+.preview-container:hover .actions {
+  opacity: 1;
+}
+.preview-container:hover .preview-date {
+  opacity: 0;
+}
+.actions:hover {
+  opacity: 1;
+}
+
+.email-preview .preview-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.isStar {
+  color: gold;
+}
+
+.preview-content {
+  flex: 1;
+}

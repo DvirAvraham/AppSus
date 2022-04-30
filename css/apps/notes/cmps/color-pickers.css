@@ -1,0 +1,21 @@
+.color-pickers {
+  background-color: rgb(32, 187, 123);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 4px;
+  width: 220px;
+  padding: 5px;
+  justify-content: space-between;
+  position: absolute;
+  border-radius: 11px;
+  left: 2px;
+  bottom: -34px;
+}
+
+.color-pickers > div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}

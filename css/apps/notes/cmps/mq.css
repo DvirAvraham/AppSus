@@ -1,0 +1,42 @@
+@media (min-width: 1890px) {
+  .notes-list {
+    column-count: 6;
+  }
+}
+
+@media (max-width: 1210px) {
+  .notes-list {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1120px) {
+  .notes-list {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 750px) {
+  .notes-list {
+    column-count: 2;
+  }
+
+  .notes-add-container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .notes-list {
+    column-count: 1;
+    margin: 0 auto;
+    width: 350px;
+  }
+  .notes-add-container {
+    width: 370px;
+  }
+  .circles {
+    overflow-y: hidden;
+    /* top: 115px; */
+  }
+}

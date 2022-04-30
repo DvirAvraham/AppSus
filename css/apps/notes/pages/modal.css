@@ -1,0 +1,29 @@
+.note-modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 1em;
+  border-radius: 11px;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.438);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s;
+}
+
+.open-overlay {
+  z-index: 5;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.last-edit-text {
+  font-size: 0.625rem;
+}

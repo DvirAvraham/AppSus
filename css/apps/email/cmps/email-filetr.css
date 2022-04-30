@@ -1,0 +1,80 @@
+/* .email-filetr{
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    margin-left: 16vw;
+    margin-bottom: 0.5vw;
+    margin-left: 110px;
+} */
+
+.sort-date{
+  font-size: 28px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sort-az {
+  font-size: large;
+  margin-inline-start: 18px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.compose {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25vw;
+  background-color: white;
+  border-radius: 40px;
+  border-color: #77889914;
+  box-shadow: -10px 5px 7px -10px #919e9d;
+  max-width: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  content: '';
+  height: 48px;
+  min-width: 56px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #5c5b5b;
+  font-weight: bold;
+  margin-bottom: 13px;
+  margin-left: -16vw;
+  padding: 26px 78px;
+}
+
+.compose:hover {
+  box-shadow: -10px 5px 7px -3px #919e9d;
+  cursor: pointer;
+}
+
+.compose img {
+  width: 60px;
+  padding-right: 12px;
+}
+
+.compose-inputs {
+  height: 38px;
+  margin: 18px;
+  border-bottom: 1px solid rgba(235, 222, 222, 0.863);
+}
+
+.compose-txt {
+  padding-right: 18px;
+  font-size: 0.98rem;
+}
+
+.email-choice-list {
+  width: 65px;
+  margin-left: 10px;
+  background-color: #f3f3f3;
+  border: 0;
+  height: 54px;
+  border-radius: 10px;
+}
+
+.hide-search {
+  opacity: 0;
+}

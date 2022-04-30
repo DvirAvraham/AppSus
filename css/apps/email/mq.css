@@ -1,0 +1,213 @@
+@media (max-width: 800px) {
+  .details-return-btn {
+    position: relative;
+    top: -9.5rem;
+    left: 66vw;
+  }
+  /* .preview-date{
+    position: absolute;
+    left: 91vw;
+  } */
+  .hide-on-mobile {
+    display: block;
+  }
+  section .email-list {
+    z-index: 15;
+    width: 83vw;
+  }
+  .wide {
+    width: inherit;
+  }
+  .expand-compose {
+    display: none !important;
+  }
+  .email-compose {
+    position: fixed;
+    bottom: -8px;
+    left: 0;
+    transform: translateY(100%);
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: white;
+    height: 53%;
+  }
+  .email-list:first-child {
+    border-top: 1px solid rgba(209, 197, 197, 0.863);
+  }
+  .email-list > * {
+    border-bottom: 1px solid rgba(209, 197, 197, 0.863);
+  }
+
+  .email-list:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
+      0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    cursor: pointer;
+  }
+
+  .open {
+    left: 7vw;
+    transform: translateY(0);
+    transition: transform 1s;
+    z-index: 20;
+    height: 87vh;
+    width: 85vw;
+  }
+  .email-filetr {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0.5vh;
+    margin-left: 110px;
+  }
+  .email-preview .preview-container {
+    display: flex;
+    height: 50px;
+  }
+  .emails-list {
+    font-size: 10px;
+    position: absolute;
+    left: 69px;
+  }
+  .compose {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+    background: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #5f6368;
+    cursor: pointer;
+    font-weight: 500;
+    height: 36px;
+    min-width: 80px;
+    outline: none;
+    padding: 0 16px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: 0.2px solid #333;
+    z-index: 15;
+  }
+  .email-filetr .main-search {
+    width: 54vw;
+    margin-left: -54px;
+    margin-bottom: 7px;
+    border: 0;
+    height: 54px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+  }
+
+}
+
+@media (min-width: 800px) {
+.side-nav-bar{
+  margin-left: -30px;
+}
+  .details-return-btn {
+    position: relative;
+    top: -16.5vh;
+    right: -60vw;
+  }
+  .preview-date{
+    position: absolute;
+    left: 91vw;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .expand-compose {
+    display: block;
+  }
+  .email-compose {
+    position: fixed;
+    bottom: -8px;
+    left: 0;
+    transform: translateY(100%);
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: white;
+    height: 53%;
+  }
+
+  .open {
+    left: 55vw;
+    transform: translateY(0);
+    transition: transform 1s;
+  }
+
+  .wide {
+    height: 93%;
+    width: 61%;
+    left: 17vw;
+  }
+  .email-list:first-child {
+    border-top: 1px solid rgba(235, 222, 222, 0.863);
+  }
+
+  .email-list:hover {
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
+      0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    cursor: pointer;
+  }
+
+  .email-filetr {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0.5vw;
+    width: 980px;
+    margin-left: 16vw;
+  }
+  .compose {
+    position: unset;
+    top: 16.4vh;
+    left: 17vw;
+  }
+  .email-list {
+    font-size: 0.875rem;
+    display: flex;
+    border-bottom: 1px solid rgba(235, 222, 222, 0.863);
+    min-height: 20px;
+    width: 980px;
+    margin: 0 0 0 25px;
+    max-width: 83vw;
+  }
+  .email-preview .preview-container {
+    display: flex;
+    height: 40px;
+  }
+  .email-filetr .main-search {
+    width: 30vw;
+    margin-left: 100px;
+    margin-bottom: 0;
+    width: 30vw;
+    border: 0;
+    height: 54px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+  }
+}
+
+@media (min-width: 1240px) {
+
+  .email-list {
+    font-size: 0.875rem;
+    display: flex;
+    border-bottom: 1px solid rgba(235, 222, 222, 0.863);
+    min-height: 20px;
+    width: 980px;
+    margin: 0 0 0 25px;
+    width: 82vw;
+    max-width: 82vw;
+  }
+
+  .email-list ul li {
+    width: inherit;
+  }
+}

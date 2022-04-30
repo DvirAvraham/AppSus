@@ -1,0 +1,15 @@
+.email-app {
+  display: flex;
+}
+
+.read {
+    font-weight: bold;
+}
+
+.bgc{
+    background-color: white;
+}
+
+input{
+  border-radius: 10px;
+}

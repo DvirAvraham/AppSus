@@ -1,0 +1,81 @@
+textarea {
+  resize: none;
+  border-radius: 5px;
+  font-family: poppins;
+  width: 350px;
+  border: none;
+}
+.note-details input {
+  padding: 5px;
+}
+
+.note-title-input {
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: bold;
+  width: 350px;
+  border: none;
+}
+
+.note-img-input {
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: bold;
+  width: 350px;
+}
+
+.note-txt-details,
+.note-img-details {
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.note-img-details img {
+  max-height: 600px;
+}
+
+.todo-input {
+  border: none;
+  font-family: poppins;
+}
+
+.todo-input:focus,
+.new-todo-input:focus {
+  outline: none;
+}
+
+.add-todo-container {
+  border-bottom: 1px solid black;
+  /* border-radius: 11px; */
+}
+
+.new-todo-input {
+  border: none;
+  font-family: poppins;
+  border-radius: 0;
+}
+
+.add-todo-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  /* font-size: 1.3em; */
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.add-todo-btn i:hover,
+.remove-todo-btn i:hover {
+  color: white;
+}
+
+.remove-todo-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 25px;
+}

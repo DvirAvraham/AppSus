@@ -1,0 +1,26 @@
+.app-footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  gap: 15px;
+  border-top: 1px solid #dadce0;
+}
+
+.app-footer .logo {
+  display: flex;
+  align-items: center;
+  font-family: Gugi;
+}
+
+.app-footer .logo img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.app-footer p {
+  font-size: 10px;
+  color: #5f6368;
+}

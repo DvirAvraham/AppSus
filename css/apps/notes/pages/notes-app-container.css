@@ -1,0 +1,22 @@
+.notes-app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-app-container > p {
+  color: #5f6368;
+  letter-spacing: 0.07272727em;
+  font-size: 0.6875rem;
+}
+
+.user-msg {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  padding: 2px 15px;
+  color: rgb(0, 0, 0);
+  transition: bottom 0.5s;
+  border-left: 7px solid green;
+  background-color: whitesmoke;
+  z-index: 25;
+}
